@@ -19,7 +19,8 @@ public class MainController {
       @RequestMapping(value="/abc",method=RequestMethod.GET)
       //@ResponseBody
       String home(HttpServletResponse response,Model model) throws IOException {
-    	 model.addAttribute("name", "wangwu");
+    	 model.addAttribute("name", "李四");
+    	 model.addAttribute("age", 18);
          return "hello";
       }
 }
