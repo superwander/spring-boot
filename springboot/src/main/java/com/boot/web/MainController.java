@@ -20,7 +20,7 @@ public class MainController {
       //@ResponseBody
       String home(HttpServletResponse response,Model model) throws IOException {
     	 model.addAttribute("name", "李四");
-    	 model.addAttribute("age", 18);
+    	// model.addAttribute("age", 18);
     	// model.addAttribute("sex", "man");
 		 //model.addAttribute("hobby", "ball");
          return "hello";
