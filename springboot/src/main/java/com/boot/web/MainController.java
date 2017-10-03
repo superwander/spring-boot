@@ -22,7 +22,7 @@ public class MainController {
     	 model.addAttribute("name", "李四");
     	 model.addAttribute("age", 18);
     	 model.addAttribute("sex", "man");
-		 model.addAttribute("hobby", "ball");
+		 //model.addAttribute("hobby", "ball");
          return "hello";
       }
 }
